@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+
+body{
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #19A1AE;
+background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+background-repeat: no-repeat, no-repeat;
+background-size: 978px 976px, 978px 976px;
+background-position-y: -430px, 400px;
+background-position-x: -48%, 130%;
+}
+
+
+.main_card {
+    width: 350px;
+    height: 374px;
+    border-radius: 15px;
+    background-color: white;
+    background-image: url(images/bg-pattern-card.svg);
+    background-repeat: no-repeat;
+    background-position-y: top 125px;
+}
+
+.box_1 {
+    margin-top: 35px;
+    padding-top: 51px;
+    padding-bottom: 0px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    height: 210px;
+    border-radius: 15px;
+}
+
+ img {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+h1 {
+    margin-top: 24px;
+    margin-bottom: 13px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #2E3349;
+}
+
+span {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #6B7082;
+
+}
+
+h2 {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6B7082;
+}
+
+hr {
+    color: #E8E9EC;
+    margin: 0;
+}
+
+.box_2 {
+    display: flex;
+    height: 76px;
+    flex-direction: row;
+    align-items: center;
+   justify-content: space-around;
+}
+
+.number, .text {
+    text-align: center;
+}
+
+.number {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #2E3349;
+}
+
+.text {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1.5px;
+    color: #6B7082;
+}
+
+        /* FOR MOBILE*/
+
+@media screen and (max-width: 700px) {
+    .main_card {
+        width: 326px;
+        height: 374px;
+    }
+}
